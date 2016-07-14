@@ -1,0 +1,21 @@
+{
+  "name": "marshare",
+  "version": "1.0.0",
+  "description": "Simple app to share marmoset renders",
+  "main": "main.js",
+  "scripts": {
+    "start": "electron ."
+  },
+  "author": "Iurii Tverezovskyi",
+  "license": "CC0-1.0",
+  "dependencies": {
+    "dotenv": "^2.0.0",
+    "electron-prebuilt": "^1.2.0",
+    "fs": "0.0.2",
+    "querystring": "^0.2.0",
+    "request": "^2.73.0"
+  },
+  "devDependencies": {
+    "electron-packager": "^7.3.0"
+  }
+}

@@ -1,0 +1,5 @@
+.vscode/
+.env
+node_modules/
+marshare-win32-ia32/
+marshare-win32-x64/

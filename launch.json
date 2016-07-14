@@ -1,0 +1,16 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "marshare",
+            "type": "node",
+            "request": "launch",
+            "program": "${workspaceRoot}/main.js",
+            "stopOnEntry": false,
+            "cwd": "${workspaceRoot}",
+            "sourceMaps": true,
+            "outDir": "${workspaceRoot}/bin",
+            "runtimeExecutable": "${workspaceRoot}/node_modules/.bin/electron"
+        }
+    ]
+}

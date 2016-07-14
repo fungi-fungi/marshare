@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <title>MarSher</title>
+  </head>
+  <body>
+    <h1>Select Marmoset .mview file</h1>
+
+    <input id="folderSelect" type="file" />
+      <div id="status" style="margin-top: 30px">
+    </div>
+
+    <h2 id="link-title"></h2>
+
+    <div id="loading-gif" style="visibility: hidden">
+      <img src="static/box.gif"  />
+      <h5>Working ... </h5>
+    </div>
+
+  </body>
+  <script>
+    // You can also require other files to run in this process
+    require('./renderer.js')
+  </script>
+</html>
