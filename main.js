@@ -146,7 +146,7 @@ function getOptionToShare(filePath){
 }
 
 function prepareIndexFile(mviewPath){
-  return "<!DOCTYPE html><meta name='viewport' content='user-scalable=0'/><html><head><title>blah</title><script src='https://viewer.marmoset.co/main/marmoset.js'></script></head><body><script>marmoset.embed( '"+ mviewPath.replace("www.dropbox.com", "dl.dropbox.com") + "', { width: 800, height: 600, autoStart: true, fullFrame: true, pagePreset: false } );</script></body></html>";
+  return "<!DOCTYPE html><meta name='viewport' content='user-scalable=0'/><html><head><title>Gateway Exhibits Service</title><script src='https://viewer.marmoset.co/main/marmoset.js'></script></head><body><script>marmoset.embed( '"+ mviewPath.replace("www.dropbox.com", "dl.dropbox.com") + "', { width: 800, height: 600, autoStart: true, fullFrame: true, pagePreset: false } );</script></body></html>";
 }
 
 
